@@ -15,4 +15,4 @@ The main innovire website.
 
 ### To make edits
 1. Create a branch using git checkout -b <name-of-branch>
-2. When done making edits, git push. I will review the code and merge master if it's good. 
+2. When done making edits, git push. An administrator will review the code and merge master if there are no big problems.

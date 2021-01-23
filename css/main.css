@@ -23,6 +23,70 @@
 |--- 20.Terms page
 
 ******************************************************/
+
+
+
+html {
+  scroll-behavior:smooth;
+}
+
+.card-btn {
+  margin-top: 0;
+}
+
+.card-btn {
+  height: 60px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: -0.66px;
+  width: 100%;
+  -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.card-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.card-btn:hover:before, 
+.card-btn:focus:before, 
+.card-btn:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+.card-btn.btn--blue {
+  border: 1px solid #3d3dad;
+  background-color: #5454d4;
+}
+
 .bg-whisper {
   background: #F7F7FB;
 }
@@ -21819,8 +21883,8 @@ p {
   width: 200px;
   height: 60px;
   border-radius: 5px;
-  border: 1px solid #C31A12;
-  background: #f04037;
+  border: 1px solid #1c3be7;
+  background: #536DFE;
   color: #FFFFFF;
   font-family: "CircularStd", sans-serif;
   font-size: 21px;
@@ -21829,12 +21893,12 @@ p {
 }
 
 .btn--primary.hvr-bounce-to-left::before, .btn--red.hvr-bounce-to-left::before {
-  background: #F9544B;
+  background: #4b5fce;
   color: #fff;
 }
 
 .btn--primary.hvr-bounce-to-left:hover::before, .btn--red.hvr-bounce-to-left:hover::before {
-  background: #F9544B;
+  background: #4b5fce;
   color: #fff;
 }
 
@@ -21919,7 +21983,7 @@ p {
 }
 
 .main-menu > li > .nav-link:hover {
-  color: #f04037 !important;
+  color: #373af0 !important;
 }
 
 @media (min-width: 992px) {
@@ -22036,7 +22100,7 @@ p {
     top: 3px;
   }
   .offcanvas-active.navbar-expand-lg .main-menu li:hover > a {
-    color: #f04037;
+    color: #3768f0;
   }
   .offcanvas-active.navbar-expand-lg .main-menu a {
     display: block;
@@ -24320,8 +24384,8 @@ p {
   width: 200px;
   height: 60px;
   border-radius: 5px;
-  border: 1px solid #c31a12;
-  background: #f04037;
+  border: 1px solid #1c3be7;
+  background: #536DFE;
   color: #ffffff;
   font-family: "CircularStd", sans-serif;
   font-size: 21px;
@@ -24330,12 +24394,12 @@ p {
 }
 
 .landing-3 .btn--primary.hvr-bounce-to-left::before, .landing-3 .btn--red.hvr-bounce-to-left::before {
-  background: #F9544B;
+  background: #4b5fce;
   color: #fff;
 }
 
 .landing-3 .btn--primary.hvr-bounce-to-left:hover::before, .landing-3 .btn--red.hvr-bounce-to-left:hover::before {
-  background: #F9544B;
+  background: #4b5fce;
   color: #fff;
 }
 
@@ -24522,7 +24586,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   background: #fff;
-  top: 50%;
+  top: 0;
   padding: 0 10px;
   left: 15px;
   margin-bottom: 0;
@@ -24972,7 +25036,7 @@ p {
 }
 
 .dark-theme .navbar-light .navbar-nav .nav-link:focus, .dark-theme .navbar-light .navbar-nav .nav-link:hover {
-  color: #f04037 !important;
+  color: #3768f0 !important;
 }
 
 .dark-theme .section-title h2, .dark-theme .section-title .title, .dark-theme .title {
@@ -25702,7 +25766,7 @@ p {
     font-weight: 300;
   }
   .landing-5 .main-menu > li > .nav-link:hover {
-    color: #f04037 !important;
+    color: #3768f0 !important;
   }
 }
 
@@ -26957,8 +27021,8 @@ p {
   width: 252px;
   height: 60px;
   border-radius: 5px;
-  border: 1px solid #f0544c;
-  background-color: #f0544c;
+  border: 1px solid #1c3be7;
+  background-color: #536DFE;
   color: #fff;
   display: -webkit-inline-box;
   display: inline-flex;
@@ -28945,7 +29009,7 @@ p {
 .landing-8 .btn--primary {
   border-radius: 5px;
   border: none;
-  background-color: #f04037;
+  background-color: #536DFE;
   color: #fff;
   display: -webkit-inline-box;
   display: inline-flex;
@@ -28969,7 +29033,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.1);
+  background: #4b5fce;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 100% 50%;
@@ -30493,8 +30557,8 @@ p {
   width: 250px;
   height: 60px;
   border-radius: 10px;
-  border: 1px solid #c31a12;
-  background-color: #f04037;
+  border: 1px solid #1c3be7;
+  background-color: #536DFE;
   color: #fff;
   font-size: 21px;
   font-weight: 500;
@@ -30749,7 +30813,7 @@ p {
           align-items: center;
   padding-left: 13px;
   padding-right: 13px;
-  width: 76px;
+  /* width: 120  px; */
 }
 
 .job-details-content .job-top-header .badge.green {
@@ -30792,8 +30856,8 @@ p {
   min-width: 250px;
   height: 60px;
   border-radius: 10px;
-  border: 1px solid #C31A12;
-  background-color: #f04037;
+  border: 1px solid #1c3be7;
+  background-color: #536DFE;
   overflow: hidden;
 }
 

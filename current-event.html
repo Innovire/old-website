@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Omega - Landing Page Template</title>
+    <link
+      rel="shortcut icon"
+      href="image/png/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap , fonts & icons  -->
+    <link rel="stylesheet" href="plugins/bootstrap-4/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fonts/icon-font/css/style.css" />
+    <link rel="stylesheet" href="fonts/typography-font/typo.css" />
+    <link rel="stylesheet" href="fonts/fontawesome-5/css/all.css" />
+    <!-- Plugin'stylesheets  -->
+    <link rel="stylesheet" href="plugins/aos/aos.min.css" />
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="plugins/nice-select/nice-select.css" />
+    <link rel="stylesheet" href="plugins/slick/slick.css" />
+    <!-- Vendor stylesheets  -->
+    <link rel="stylesheet" href="css/settings.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+
+  <body>
+    <div id="loading">
+      <div class="load-circle"><span class="one"></span></div>
+    </div>
+    <div class="site-wrapper overflow-hidden">
+      <div class="landing-3 dark-theme">
+        <!-- Header Area -->
+        <header class="site-header bg--conflower-blue sticky-header">
+          <div class="container">
+            <nav
+              class="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light"
+            >
+              <!-- Brand Logo-->
+              <div class="brand-logo mr--30 order-1">
+                <a href="./index.html"
+                  ><img src="./image/png/logo-full-white.png" alt=""
+                /></a>
+              </div>
+              <div class="collapse navbar-collapse order-lg-2" id="mobile-menu">
+                <div class="navbar-nav mx-auto">
+                  <ul class="navbar-nav main-menu">
+
+
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="about.html"
+                        role="button"
+                        aria-expanded="false"
+                        >About</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="get-involved.html"
+                        role="button"
+                        aria-expanded="false"
+                        >Get Involved</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="contact.html"
+                        role="button"
+                        aria-expanded="false"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="header-btn order-2 ml-auto mr--10 mr-lg--0 order-lg-3 d-lg-none"
+                >
+                  <a href="" class="btn--primary hvr-bounce-to-left"
+                    >Get Beta Access</a
+                  >
+                </div>
+              </div>
+              <button
+                class="navbar-toggler btn-close-off-canvas order-3 order-lg-2"
+                type="button"
+                data-toggle="collapse"
+                data-target="#mobile-menu"
+                aria-controls="mobile-menu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <i class="icon icon-simple-remove icon-close"></i>
+                <i class="icon icon-menu-34 icon-burger"></i>
+              </button>
+              <div
+                class="header-btn order-2 ml-auto mr--10 mr-lg--0 order-lg-3 d-lg-block d-none"
+              >
+                <a href="sponsorship.html" class="btn--primary hvr-bounce-to-left"
+                  >Support Us</a
+                >
+              </div>
+            </nav>
+          </div>
+        </header>
+        <!-- Hero Area -->
+        <div class="hero-area pt-lg--200 section-padding shape-holder">
+          <div class="hero-section-shape d-none d-md-block">
+            <img src="./image/png/hero-shape-yellow.png" alt="" />
+          </div>
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-md-10 col-xl-7 col-lg-8"
+                data-aos="fade-right"
+                data-aos-duration="500"
+                data-aos-once="true"
+              >
+                <div class="hero-content py--50">
+                  <h1 class="title">
+                    Learn how to build a phone app
+                  </h1>
+                  <p>
+                    The Innovire Team is excited to announce that we are hosting a free app development workshop in January. This two-day course will teach attendees how to implement modern phone-app design features into their projects, through algorithms and much more!
+
+                  </p>
+                  <!-- <button class="card-btn btn--blue">Read More</button> -->
+                </div>
+              </div>
+              <div class="col-xl-5 col-lg-4">
+                <form action="https://formspree.io/f/myybonjy" method="POST" class="shape-holder">
+                  <div class="form-shape d-none d-sm-block">
+                    <img src="./image/png/hero-shape-combined.png" alt="" />
+                  </div>
+                  <div class="hero-form">
+                    <div class="form-group from-group--with-label">
+                      <input
+                      type="text"
+                      class="form-control"
+                      id="inputEmail1"
+                      name="email-address"
+                      />
+                      <label for="selectSize" class="form-label"
+                        >Email address</label
+                      >
+                    </div>
+                    <div class="form-group from-group--with-label">
+                      <input
+                      type="text"
+                      class="form-control"
+                      id="inputName1"
+                      name="name"
+                      />
+                      <label for="selectSize" class="form-label"
+                        >Full Name</label
+                      >
+                    </div>
+                    <div class="form-group from-select from-group--with-label">
+                      <!-- <label for="selectBudget">Yearly budget</label> -->
+                      <select class="custom-select" id="selectBudget" style="display: none;">
+                        <!-- <option selected="">Register for workshop?</option> -->
+                        <option value="Yes"> Yes</option>
+                        <option value="No"> No</option>
+                      </select>
+                      <div class="nice-select custom-select" tabindex="0">
+                        <span class="current">No</span>
+                        <ul class="list">
+                          <li data-value="Yes" class="option"> Yes</li>
+                          <li data-value="No" class="option"> No</li>
+                        </ul>
+                      </div>
+                      <label for="selectSize" class="form-label"
+                        >Do you want to sign up for the workshop?</label
+                      >
+                    </div>
+                    <div class="form-group from-select from-group--with-label">
+                      <!-- <label for="selectBudget">Yearly budget</label> -->
+                      <select class="custom-select" id="selectBudget" style="display: none;">
+                        <option value="Yes"> Yes</option>
+                        <option value="No"> No</option>
+                      </select>
+                      <div class="nice-select custom-select" tabindex="0">
+                        <span class="current">Day 1 and Day 2?</span>
+                        <ul class="list">
+                          <li data-value="Yes" class="option"> Day 1</li>
+                          <li data-value="No" class="option"> Day 1 and Day 2</li>
+                        </ul>
+                      </div>
+                      <label for="selectSize" class="form-label"
+                        >Which days do you want to sign up for?</label
+                      >
+                    </div>
+                    <div class="hero-btn">
+                      <button
+                        type="submit"
+                        class="btn--primary hvr-bounce-to-left"
+                      >
+                        Sign Up
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer section -->
+        <div class="footer-section">
+          <div class="container">
+            <div class="footer-top">
+              <div class="row justify-content-center">
+                <div class="col-lg-2 col-md-4 mb--30 text-lg-left text-center">
+                  <div class="pr-lg--50">
+                    <div class="footer-logo">
+                      <img src="./image/png/logo-full-white.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 text-center mb--30">
+                  <ul class="footer-list list-inline">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="updates.html">Updates</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 text-center text-lg-right mb--30">
+                  <p class="copyright-text">
+                    &copy; 2021 Innovire, All Rights Reserved
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vendor Scripts -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/jquery/jquery-migrate.min.js"></script>
+    <script src="plugins/bootstrap-4/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin's Scripts -->
+    <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+    <script src="plugins/nice-select/jquery.nice-select.min.js"></script>
+    <script src="plugins/aos/aos.min.js"></script>
+    <script src="plugins/slick/slick.min.js"></script>
+    <!-- Activation Script -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>

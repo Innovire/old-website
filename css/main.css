@@ -22139,6 +22139,9 @@ p {
     z-index: 9999;
   }
 }
+.sticky-header.reveal-header {
+  background: #fff;
+}
 
 .landing-1 .sticky-header.reveal-header {
   background: #fff;

@@ -33254,11 +33254,22 @@ p {
 
 .contact-page .contact-widget-block p {
   color: #696871;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 300;
   letter-spacing: -0.66px;
   line-height: 39px;
   margin-bottom: 0;
+}
+.contact-page .contact-widget-block a {
+  color: #4875d6;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.66px;
+  line-height: 39px;
+  margin-bottom: 0;
+}
+.contact-page .contact-widget-block a:hover {
+  color: #174ab9;
 }
 
 .contact-page .contact-form-title--big .form-title {

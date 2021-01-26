@@ -31981,6 +31981,33 @@ p {
   padding-top: 30px;
 }
 
+.sponsorship-package {
+  margin: 20px;
+}
+
+.pricing-area .sponsorship-package .pricing-btn {
+  width: 100%;
+  max-width: 305px;
+  border-radius: 10px;
+  border: 1px solid #eae9f2;
+  min-height: 60px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.pricing-area .sponsorship-package .pricing-btn a{
+  background-color: #ffffff;
+  color: #5454d4;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: -0.66px;
+}
+
 .pricing-page .pricing-card .pricing-btn .btn {
   width: 100%;
   max-width: 305px;
@@ -32000,6 +32027,7 @@ p {
           justify-content: center;
   margin: 0 auto;
 }
+
 
 .pricing-page .yearly-active .yearly {
   display: block;
@@ -33230,7 +33258,7 @@ p {
   padding-right: 50px;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .contact-page .contact-widget-wrapper {
     padding-left: 140px;
     padding-right: 150px;
@@ -33242,6 +33270,17 @@ p {
     padding-left: 150px;
     padding-right: 150px;
   }
+} */
+
+.contact-row {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: center;
 }
 
 .contact-page .contact-widget-block .title {

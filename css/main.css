@@ -30784,13 +30784,17 @@ p {
 }
 
 .job-details-content .job-top-header {
-  max-width: 275px;
+  width:100%;
+  max-width: 400px;
   display: -webkit-box;
   display: flex;
+  align-items: center;
   -webkit-box-pack: justify;
-          justify-content: space-between;
+          justify-content: space-evenly;
+  justify-content: space-evenly;
   margin: 0 auto;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .job-details-content .job-top-header .location {

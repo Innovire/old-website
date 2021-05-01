@@ -11,4 +11,10 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 1200px) {
+  .googleform-container  {
+    width:600px !important;
+  }
+}
 /*# sourceMappingURL=maps/custom.css.map */

@@ -5,9 +5,13 @@ Generated using nucleoapp.com
 
 -------------------------------- */
 @font-face {
-  font-family: 'avasta';
-  src: url('../fonts/avasta.eot');
-  src: url('../fonts/avasta.eot') format('embedded-opentype'), url('../fonts/avasta.woff2') format('woff2'), url('../fonts/avasta.woff') format('woff'), url('../fonts/avasta.ttf') format('truetype'), url('../fonts/avasta.svg') format('svg');
+  font-family: "avasta";
+  src: url("../fonts/avasta.eot");
+  src: url("../fonts/avasta.eot") format("embedded-opentype"),
+    url("../fonts/avasta.woff2") format("woff2"),
+    url("../fonts/avasta.woff") format("woff"),
+    url("../fonts/avasta.ttf") format("truetype"),
+    url("../fonts/avasta.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -16,7 +20,7 @@ Generated using nucleoapp.com
 -------------------------*/
 .icon {
   display: inline-block;
-  font: normal normal normal 1em/1 'avasta';
+  font: normal normal normal 1em/1 "avasta";
   speak: none;
   text-transform: none;
   /* Better Font Rendering */
@@ -545,4 +549,3 @@ Generated using nucleoapp.com
 .icon-single-copies::before {
   content: "\ea69";
 }
-

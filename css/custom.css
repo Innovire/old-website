@@ -1,2 +1,20 @@
+.workshop-row {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: row;
+}
 
+@media (max-width: 580px) {
+  .workshop-row {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1200px) {
+  .googleform-container  {
+    width:600px !important;
+  }
+}
 /*# sourceMappingURL=maps/custom.css.map */

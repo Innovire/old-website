@@ -1,6 +1,6 @@
 .workshop-row {
   display: flex;
-  width: 100%;
+  width: 80%;
   justify-content: center;
   flex-direction: row;
 }
@@ -13,8 +13,8 @@
 }
 
 @media (max-width: 1200px) {
-  .googleform-container  {
-    width:600px !important;
+  .googleform-container {
+    width: 600px !important;
   }
 }
 /*# sourceMappingURL=maps/custom.css.map */

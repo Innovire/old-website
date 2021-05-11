@@ -25643,7 +25643,7 @@ p {
   margin-right: 12px;
 }
 
-.landing-4 .testimonial-card .card-footer .customer-identity .name {
+.landing-4 .testimonial-card .name {
   color: #19191b;
   font-family: "CircularStd", sans-serif;
   font-size: 21px;
@@ -25652,6 +25652,14 @@ p {
   line-height: 28px;
 }
 
+.landing-4 .testimonial-card .card-footer .customer-identity a {
+  color: #5454d4;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 28px;
+    margin-top: 6px;
+}
 .landing-4 .testimonial-card .card-footer .customer-identity .company {
   color: #696871;
   font-family: "CircularStd", sans-serif;
@@ -25660,6 +25668,7 @@ p {
   letter-spacing: -0.5px;
   line-height: 28px;
 }
+
 
 .landing-4 .testimonial-card .card-footer .customer-identity :last-child {
   margin-bottom: 0;

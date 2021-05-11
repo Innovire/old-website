@@ -5,6 +5,7 @@ const events = [
     description:
       "A Robotics Camp held online where participants learned how to make their own electrical circuits on TinkerCAD.",
     pathToFile: "robotics-camp.html",
+    priority: "high",
   },
   {
     name: "Boat Design Competition",
@@ -12,6 +13,7 @@ const events = [
     description:
       "A Robotics Camp held online where participants learned how to make their own electrical circuits on TinkerCAD.",
     pathToFile: "boat-design-competition.html",
+    priority: "low",
   },
   {
     name: "Christmas CAD Event",
@@ -19,6 +21,7 @@ const events = [
     description:
       "Students designed and 3D modelled an ornament of their own design. Participants could get their design 3D printed and given to them to keep if they wanted.",
     pathToFile: "cad-competition.html",
+    priority: "medium",
   },
   {
     name: "Innovire Classes",
@@ -26,6 +29,7 @@ const events = [
     description:
       "Classes about CAD, Arduino, and aviation were all taught by Innovire members well-versed in the area.",
     pathToFile: "classes.html",
+    priority: "high",
   },
   {
     name: "2019 Innovire Summit Conference",
@@ -33,6 +37,7 @@ const events = [
     description:
       "350+ students learned about exponential technologies! The conference was hosted at the University of Toronto - Mississauga Campus.",
     pathToFile: "conference-2019.html",
+    priority: "high",
   },
   {
     name: "2018 Innovire Summit",
@@ -40,6 +45,7 @@ const events = [
     description:
       "Innovire's first ever Summit! 60+ students learned about technological advancements.",
     pathToFile: "conference-2018.html",
+    priority: "high",
   },
 ];
 

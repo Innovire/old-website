@@ -31,11 +31,11 @@
   justify-content: center;
   align-items: center;
 }
-.pagination button.active {
+/* .pagination button.active {
   border: 1px solid #5454d4;
   background-color: #5454d4;
   color: #fff;
-}
+} */
 
 .pagination button:hover {
   border: 1px solid #5454d4;

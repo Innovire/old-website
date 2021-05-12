@@ -1,5 +1,5 @@
 import events from "./events.js";
-const priority = ["high", "mediunm"];
+const priority = ["high", "medium"];
 const max_events = 6;
 
 let indexElement = document.getElementById("events-carousel");

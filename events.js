@@ -16,7 +16,7 @@ const events = [
     priority: "low",
   },
   {
-    name: "Christmas CAD Event",
+    name: "Holiday CAD Event",
     date: "December 5th - 24th, 2020",
     description:
       "Students designed and 3D modelled an ornament of their own design. Participants could get their design 3D printed and given to them to keep if they wanted.",

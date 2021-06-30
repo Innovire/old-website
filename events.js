@@ -1,5 +1,13 @@
 const events = [
   {
+    name: "2021 Innovire Summit Conference",
+    date: "June 5th - 6th, 2021",
+    description:
+      "Our yearly conference promoting and empowering STEM for ALL youth around the worlde.",
+    pathToFile: "conference-2021.html",
+    priority: "high",
+  },
+  {
     name: "April Break Robotics Camp!",
     date: "April 12th-17th, 2021",
     description:
